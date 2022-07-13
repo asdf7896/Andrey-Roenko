@@ -1,0 +1,10 @@
+print('Введите 1-ое число')
+a = int(input())
+print('Введите 2-ое число')
+b = int(input())
+if (a * b > 20):
+    b = b * 2
+else:
+    a = a / 3
+print(a)
+print(b)
